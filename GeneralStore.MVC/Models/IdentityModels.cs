@@ -27,5 +27,6 @@ namespace GeneralStore.MVC.Models
             return new ApplicationDbContext();
         }
         public DbSet<GeneralStore.MVC.Models.Product> Products { get; set; }
+        public DbSet<GeneralStore.MVC.Models.Customer> Customers { get; set; }
     }
 }

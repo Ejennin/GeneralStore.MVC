@@ -5,7 +5,8 @@
 <div class="jumbotron">
     <h1>General Store</h1>
     <p>Our General Store opened it's doors in 1986. Since them we have been the standard in providers of access to home-produced items, and specialty foods.</p>
-    <p><a href="@Html.ActionLink("Learn More About Us", "About")" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <p><a href="@Html.DisplayNameFor(model => model)" class="btn btn-primary btn-lg">About Us  &raquo;</a></p>
+    
 </div>
 
 <div class="row">
@@ -15,7 +16,7 @@
             Our General Store, located in rural Indiana, is host to a multitude of fine food and items of distinction.<br />
             Come browse our products and see what we have for you.
         </p>
-        <p><a class="btn btn-default" href="@Html.ActionLink("Check Products", "Index", "Product", null, new { @class = "btn btn-primary btn-large" })">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href= "@Html.ActionLink("Check Products", "Index", "Product", null, new { @class = "btn btn-primary btn-large" })"></a></p>
     </div>
     <div class="col-md-4">
         <h2>Get more libraries</h2>
